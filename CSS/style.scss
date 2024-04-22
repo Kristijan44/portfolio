@@ -10,8 +10,8 @@ html{
     scroll-behavior: smooth;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
-$mainfont: 'Oswald', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Ramabhadra&display=swap');
+$mainfont: 'Ramabhadra', sans-serif;
 
 @mixin flex-spaceb-dir-col {
     display: flex;
@@ -42,7 +42,7 @@ header{
     #left{
         width: 50%;
         height: 100%;
-        background-color: #cfa983;
+        background-color: #006666;
         @include flex-spaceb-dir-col;
         #top{
             width: 100%;
@@ -90,14 +90,7 @@ header{
                         } 
                     }
                 }
-                #sendvic{
-                    display: none;
-                    color: #fff;
-                    font-size: 10vw;
-                    margin-top: 5%;
-                    margin-left: 50%;
-                    cursor: pointer;
-                }
+
             }
             #topbottom{
                 width: 100%;
@@ -127,7 +120,7 @@ header{
                 width: 10%;
                 height: 24%;
                 background-color: #fff;
-                color: #cfa983;
+                color: #006666;
                 font-size: 3vw;
                 display: flex;
                 flex-direction: column;
@@ -204,7 +197,7 @@ header{
     {
         width: 50%;
         height: 100%;
-        background-image: url('../images/ZafirPrint.png');
+        background-image: url('../images/Print.jpg');
         background-repeat: repeat-y;
         background-repeat: repeat-x;
         display: flex;
@@ -279,7 +272,7 @@ header{
             #leftphoto{
                 width: 50%;
                 height: 100%;
-                background-image: url('../images/AnaProfilEdit.jpg');
+                background-image: url('../images/pcMotherboard.jpg');
                 background-size: cover;
                 background-position: center;
                 background-repeat: no-repeat;
@@ -305,7 +298,7 @@ header{
             #rightphoto{
                 width: 50%;
                 height: 100%;
-                background-image: url('../images/architectureEdit.jpg');
+                background-image: url('../images/pcSetup.jpg');
                 background-size: cover;
                 background-position: center;
                 background-repeat: no-repeat;
@@ -315,7 +308,7 @@ header{
 }
 #content2{
     height: 100vh;
-    background-image: url('../images/ZafirPrintLG.png');
+    background-image: url('../images/PrintLG.jpg');
     background-repeat: no-repeat;
     @include flex-spacea-alignitems-center;
     font-family: $mainfont;
@@ -343,7 +336,7 @@ header{
             #bottomblock1{
                 width: 25%;
                 height: 80%;
-                background-image: url('../images/ZafirovskiPhotoHomeEdit.png');
+                background-image: url('../images/mangahaven.jpg');
                 background-position: center;
                 background-repeat: no-repeat;
                 background-size: cover;
@@ -356,7 +349,7 @@ header{
             #bottomblock2{
                 width: 25%;
                 height: 80%;
-                background-image: url('../images/zafirportfolio.png');
+                background-image: url('../images/DogSaloon.jpg');
                 background-position: center;
                 background-repeat: no-repeat;
                 background-size: cover;
@@ -562,7 +555,7 @@ header{
     @include flex-spacea-alignitems-center;
     flex-direction: column;
     font-family: $mainfont;
-    background-image: url('../images/ZafirPrintLG.png');
+    background-image: url('../images/PrintLG.png');
     #blockforma{
         width: 40%;
         height: auto;

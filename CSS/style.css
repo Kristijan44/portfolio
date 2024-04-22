@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Oswald&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Ramabhadra&display=swap');
 * {
   margin: 0;
   padding: 0; }
@@ -53,7 +53,7 @@ header {
         header #left #top #toptop nav {
           width: 60%;
           height: 30%;
-          font-family: "Oswald", sans-serif;
+          font-family: "Ramabhadra", sans-serif;
           display: flex;
           align-items: center; }
           header #left #top #toptop nav ul {
@@ -84,7 +84,7 @@ header {
         align-items: flex-end; }
         header #left #top #topbottom #head1 {
           color: #fff;
-          font-family: "Oswald", sans-serif;
+          font-family: "Ramabhadra", sans-serif;
           font-size: 2vw;
           margin-left: 10%;
           text-shadow: 0px 6px 4px rgba(0, 0, 0, 0.59); }
@@ -116,14 +116,14 @@ header {
               transform: scale(1.1); }
       header #left #center #head2 {
         align-self: flex-start;
-        font-family: "Oswald", sans-serif;
+        font-family: "Ramabhadra", sans-serif;
         color: #fff;
         font-size: 1.9vw;
         text-shadow: 0px 6px 4px rgba(0, 0, 0, 0.59);
         margin-left: 30%;
         margin-top: 2%; }
       header #left #center #head3 {
-        font-family: "Oswald", sans-serif;
+        font-family: "Ramabhadra", sans-serif;
         color: #fff;
         font-size: 2vw;
         text-shadow: 0px 6px 4px rgba(0, 0, 0, 0.59);
@@ -138,7 +138,7 @@ header {
         height: 100%;
         background-color: #9dbcbc;
         color: #fff;
-        font-family: "Oswald", sans-serif;
+        font-family: "Ramabhadra", sans-serif;
         font-size: 1.7vw;
         display: flex;
         align-items: center;
@@ -156,7 +156,7 @@ header {
         align-items: center;
         justify-content: space-around;
         font-size: 2vw;
-        font-family: "Oswald", sans-serif;
+        font-family: "Ramabhadra", sans-serif;
         color: #006666; }
         header #left #bottom #moreinf i {
           font-size: 1.5vw;
@@ -166,7 +166,7 @@ header {
   header #right {
     width: 50%;
     height: 100%;
-    background-image: url("../images/Print.png");
+    background-image: url("../images/Print.jpg");
     background-repeat: repeat-y;
     background-repeat: repeat-x;
     display: flex;
@@ -202,7 +202,7 @@ header {
     background-color: #9dbcbc;
     width: 50%;
     height: 100%;
-    font-family: "Oswald", sans-serif;
+    font-family: "Ramabhadra", sans-serif;
     color: #006666;
     text-align: center;
     display: flex;
@@ -225,7 +225,7 @@ header {
     height: 100%;
     display: flex;
     flex-direction: column;
-    font-family: "Oswald", sans-serif;
+    font-family: "Ramabhadra", sans-serif;
     color: #fff;
     font-size: 1.5vw; }
     #content1 #rightc1 #righttop {
@@ -269,12 +269,12 @@ header {
 
 #content2 {
   height: 100vh;
-  background-image: url("../images/PrintLG.png");
+  background-image: url("../images/PrintLG.jpg");
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  font-family: "Oswald", sans-serif; }
+  font-family: "Ramabhadra", sans-serif; }
   #content2 #mainblock {
     width: 80%;
     height: 80%;
@@ -350,7 +350,7 @@ header {
     height: 100%;
     display: flex;
     flex-direction: column;
-    font-family: "Oswald", sans-serif;
+    font-family: "Ramabhadra", sans-serif;
     order: 1; }
     #content3 #leftc3 #lefttopc3 {
       width: 100%;
@@ -381,7 +381,7 @@ header {
     #content3 #leftc3 #leftbottomc3 {
       width: 100%;
       height: 50%;
-      background-color: #9dbcbc;
+      background-color: #60696B;
       color: #fff;
       display: flex;
       align-items: center;
@@ -406,7 +406,7 @@ header {
     height: 100%;
     color: #fff;
     background-color: #006666;
-    font-family: "Oswald", sans-serif;
+    font-family: "Ramabhadra", sans-serif;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -499,8 +499,8 @@ header {
   align-items: center;
   justify-content: space-around;
   flex-direction: column;
-  font-family: "Oswald", sans-serif;
-  background-image: url("../images/PrintLG.png"); }
+  font-family: "Ramabhadra", sans-serif;
+  background-image: url("../images/PrintLG.jpg"); }
   #contactform #blockforma {
     width: 40%;
     height: auto;
@@ -531,7 +531,7 @@ header {
         margin-bottom: 5%;
         padding: 3%;
         color: #fff;
-        font-family: "Oswald", sans-serif; }
+        font-family: "Ramabhadra", sans-serif; }
       #contactform #blockforma form input:focus {
         box-shadow: 0;
         outline: none; }
@@ -585,7 +585,7 @@ footer {
   width: 100%;
   height: 200px;
   background-color: #006666;
-  font-family: "Oswald", sans-serif;
+  font-family: "Ramabhadra", sans-serif;
   color: #fff;
   display: flex;
   align-items: center;
